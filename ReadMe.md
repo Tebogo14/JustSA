@@ -1,3 +1,12 @@
+Technologies Used
+
+DotNetCore 3.1 
+EntityFrameworkcore
+Sql Server
+SwaggerUI 
+Nswag (to generate typescript services )
+Angular 10
+
 For Database connection 
 
 1.Change the connection String on this AppSetting.Json to your connection string. 
