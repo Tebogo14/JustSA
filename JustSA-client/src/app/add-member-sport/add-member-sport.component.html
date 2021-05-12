@@ -1,0 +1,52 @@
+<div class="content">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ml-auto mr-auto">
+                    <div class="page-categories">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Add Member
+                                </h2>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name" class="bmd-label-floating">Name<span class="red">
+                                                        *</span></label>
+                                                <input class="form-control" [(ngModel)]="member.name" type="text" name="name" required="true">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name" class="bmd-label-floating">Surname<span class="red">
+                                                        *</span></label>
+                                                <input class="form-control" [(ngModel)]="member.surname" type="text" name="name" required="true">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="name" class="bmd-label-floating">Sport<span class="red">*</span></label>
+                                        <div class="form-group">
+                                            <select class="form-control" name="selectedSport" [(ngModel)]="member.sportId">
+                                                <option disabled selected>Select a sport</option>
+                                                <option *ngFor="let sport of sports" [ngValue]="sport.id"> {{sport.name}} </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <button class="btn btn-info float-right" (click)="save()" data-toggle="collapse">Save</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

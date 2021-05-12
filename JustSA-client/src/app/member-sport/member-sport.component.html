@@ -1,0 +1,30 @@
+<div class="content">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 ml-auto mr-auto">
+                    <div class="page-categories">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Member
+                                <a [routerLink]="['/AddMember']" class="btn btn-primary" style="float:right">Add Member</a>
+                            </h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="col-md-6" *ngFor="let member of members">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h3 class="card-title">
+                                                <strong>&nbsp;{{member.name}}&nbsp;{{member.surname}}</strong>
+                                                <a [routerLink]="[member.id]" class="btn btn-sm btn-warning" style="float:right">View Sports</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

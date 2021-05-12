@@ -1,0 +1,12 @@
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\bin\Debug\netcoreapp3.1\Just.Entityframeworkcore.deps.json
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\bin\Debug\netcoreapp3.1\Just.Entityframeworkcore.dll
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\bin\Debug\netcoreapp3.1\Just.Entityframeworkcore.pdb
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.csprojAssemblyReference.cache
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.AssemblyInfoInputs.cache
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.AssemblyInfo.cs
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.dll
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.pdb
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\bin\Debug\netcoreapp3.1\Just.Entityframeworkcore.runtimeconfig.json
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\bin\Debug\netcoreapp3.1\Just.Entityframeworkcore.runtimeconfig.dev.json
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.genruntimeconfig.cache
+C:\Source\Repos\JustSA\Just.Entityframeworkcore\obj\Debug\netcoreapp3.1\Just.Entityframeworkcore.csproj.CoreCompileInputs.cache
